@@ -110,6 +110,7 @@ const SimpleForm: React.FC = () => {
     <form
       onSubmit={handleSubmit}
       style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+      <h1>Simple Form</h1>
       <div>
         <label>First Name</label>
         <input
